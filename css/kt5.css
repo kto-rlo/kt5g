@@ -6,7 +6,7 @@
   font-style: normal; }
 html {
   font-family: 'NanumSquare', sans-serif; }
-  html body { 
+  html body {
     width: 100%;
     background-image: url(../imges/bg.jpg);
     background-repeat: no-repeat;
@@ -486,7 +486,7 @@ html {
   html::-webkit-scrollbar {
     display: none; }
   html body {
-    background-image: url("../imges/bg.jpg");
+    background-image: url("../imges/bg_mobile.jpg");
     background-size: cover;
     background-position: center 0; }
     html body .wrap {
