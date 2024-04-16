@@ -8,7 +8,7 @@ html {
   font-family: 'NanumSquare', sans-serif; }
   html body {
     width: 100%;
-    background-image: url("http://joyfulyoon.com//images/KT5G/bg.jpg");
+    background-image: url(../imges/bg.jpg);
     background-repeat: no-repeat;
     background-position: center center; }
     html body .wrap {
