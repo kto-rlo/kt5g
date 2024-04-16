@@ -1,0 +1,690 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+@font-face {
+  font-family: 'TmonMonsori';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+html {
+  font-family: 'NanumSquare', sans-serif; }
+  html body {
+    width: 100%;
+    background-image: url("http://joyfulyoon.com//images/KT5G/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center; }
+    html body .wrap {
+      width: 1200px;
+      margin: 0 auto; }
+      html body .wrap header {
+        width: 100%;
+        height: 708px; }
+        html body .wrap header h1 {
+          margin-top: 224px;
+          font-family: 'TmonMonsori', sans-serif;
+          font-size: 68px;
+          color: #023293;
+          text-align: center; }
+          html body .wrap header h1 p {
+            margin-top: 20px;
+            font-size: 84px; }
+            html body .wrap header h1 p > span {
+              padding: 10px 20px 0 20px;
+              margin-right: 10px;
+              background-color: #023293;
+              color: #ffffff;
+              border-radius: 30px 0 30px 0; }
+        html body .wrap header > p {
+          text-align: center; }
+          html body .wrap header > p:nth-of-type(1) {
+            margin-top: 60px;
+            font-size: 30px;
+            font-weight: bold;
+            color: #023293; }
+            html body .wrap header > p:nth-of-type(1) span {
+              margin-right: 10px;
+              padding: 5px 10px;
+              background-color: #023293;
+              color: #fff;
+              border-radius: 30px; }
+          html body .wrap header > p:nth-of-type(2) {
+            margin-top: 20px;
+            font-size: 26px;
+            font-weight: normal;
+            color: #023293; }
+            html body .wrap header > p:nth-of-type(2) span {
+              margin: 0 10px;
+              font-size: 30px;
+              font-weight: bold; }
+      html body .wrap section article {
+        width: 100%;
+        height: 946px;
+        background-color: #fff;
+        border-radius: 15px;
+        text-align: center; }
+        html body .wrap section article:nth-of-type(1) h3 {
+          padding-top: 110px;
+          font-size: 36px;
+          font-weight: lighter;
+          line-height: 50px;
+          color: #333333; }
+          html body .wrap section article:nth-of-type(1) h3 span {
+            font-size: 38px;
+            font-weight: bold;
+            color: #023293; }
+        html body .wrap section article:nth-of-type(1) .box_wrap {
+          display: inline-block;
+          margin-top: 40px;
+          overflow: hidden; }
+          html body .wrap section article:nth-of-type(1) .box_wrap .basic {
+            overflow: hidden;
+            float: left;
+            margin-right: 20px;
+            width: 395px;
+            height: 217px; }
+            html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box {
+              float: left;
+              width: 160px;
+              height: 100%;
+              font-size: 24px;
+              font-weight: bold;
+              color: #ffffff;
+              background-color: #3b76fc; }
+              html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box > p {
+                margin-top: 75px;
+                line-height: 30px; }
+            html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box2 {
+              float: left;
+              width: 234px;
+              height: 100%;
+              color: #333333;
+              border: 1px solid #ccc;
+              box-sizing: border-box; }
+              html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box2 p {
+                line-height: 28px; }
+                html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box2 p:nth-of-type(1) {
+                  margin-top: 70px;
+                  font-size: 24px;
+                  font-weight: bold; }
+                html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box2 p:nth-of-type(2) {
+                  font-size: 14px;
+                  font-weight: normal; }
+                  html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box2 p:nth-of-type(2) span {
+                    color: #ff0000; }
+                html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box2 p:nth-of-type(3) {
+                  font-size: 12px;
+                  font-weight: lighter; }
+          html body .wrap section article:nth-of-type(1) .box_wrap .premium {
+            overflow: hidden;
+            width: 395px;
+            height: 217px; }
+            html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box {
+              float: left;
+              width: 160px;
+              height: 217px;
+              font-size: 24px;
+              font-weight: bold;
+              color: #ffffff;
+              background-color: #3b76fc; }
+              html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box > p {
+                margin-top: 75px;
+                line-height: 30px; }
+            html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box2 {
+              width: 234px;
+              height: 100%;
+              float: left;
+              border: 1px solid #ccc;
+              box-sizing: border-box; }
+              html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box2 p {
+                line-height: 28px; }
+                html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box2 p:nth-of-type(1) {
+                  margin-top: 70px;
+                  font-size: 24px;
+                  font-weight: bold; }
+                html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box2 p:nth-of-type(2) {
+                  font-size: 14px;
+                  font-weight: normal; }
+                  html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box2 p:nth-of-type(2) span {
+                    color: #ff0000; }
+        html body .wrap section article:nth-of-type(1) > p {
+          margin-top: 40px;
+          font-size: 28px;
+          font-weight: lighter;
+          color: #333333;
+          line-height: 40px; }
+          html body .wrap section article:nth-of-type(1) > p span {
+            font-weight: bold;
+            color: #024ec6; }
+        html body .wrap section article:nth-of-type(1) > a {
+          display: inline-block; }
+          html body .wrap section article:nth-of-type(1) > a:nth-of-type(1) {
+            margin-top: 10px;
+            padding: 15px 45px;
+            font-size: 56px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #3b76fc;
+            border-radius: 60px; }
+          html body .wrap section article:nth-of-type(1) > a:nth-of-type(2) {
+            margin-top: 10px;
+            padding: 30px 35px;
+            font-size: 32px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #333333;
+            border-radius: 60px; }
+        html body .wrap section article:nth-of-type(2) {
+          margin-top: 25px; }
+          html body .wrap section article:nth-of-type(2) h3 {
+            margin-bottom: 40px;
+            padding-top: 85px;
+            font-size: 36px;
+            font-weight: lighter;
+            line-height: 50px;
+            color: #333333; }
+            html body .wrap section article:nth-of-type(2) h3 span {
+              font-size: 38px;
+              font-weight: bold;
+              color: #023293; }
+          html body .wrap section article:nth-of-type(2) .product {
+            display: inline-block;
+            margin-bottom: 10px;
+            width: 510px;
+            height: 366px;
+            background-color: #3b76fc;
+            border: 1px solid #3b76fc;
+            border-radius: 15px; }
+            html body .wrap section article:nth-of-type(2) .product .img_box {
+              position: relative;
+              width: 100%;
+              height: 257px;
+              background-color: #fff;
+              border-top-left-radius: 15px;
+              border-top-right-radius: 15px; }
+              html body .wrap section article:nth-of-type(2) .product .img_box span {
+                position: absolute;
+                top: 5px;
+                left: 5px; }
+              html body .wrap section article:nth-of-type(2) .product .img_box > img {
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%); }
+            html body .wrap section article:nth-of-type(2) .product p {
+              margin-top: 25px;
+              font-size: 24px;
+              font-weight: bold;
+              line-height: 30px;
+              color: #ffffff; }
+          html body .wrap section article:nth-of-type(2) .pro1 {
+            background-color: #024ec6;
+            border: 1px solid #024ec6; }
+        html body .wrap section article:nth-of-type(3) {
+          margin-top: 25px;
+          overflow: hidden;
+          font-size: 0; }
+          html body .wrap section article:nth-of-type(3) h3 {
+            margin-bottom: 30px;
+            padding-top: 100px;
+            font-size: 36px;
+            font-weight: lighter;
+            line-height: 50px;
+            color: #333333; }
+            html body .wrap section article:nth-of-type(3) h3 span {
+              font-size: 38px;
+              font-weight: bold;
+              color: #024ec6; }
+          html body .wrap section article:nth-of-type(3) p {
+            font-size: 30px;
+            font-weight: lighter;
+            color: #333333; }
+            html body .wrap section article:nth-of-type(3) p:nth-of-type(1) {
+              font-weight: bold; }
+            html body .wrap section article:nth-of-type(3) p:nth-of-type(2) {
+              margin-top: 9px; }
+            html body .wrap section article:nth-of-type(3) p:nth-of-type(3) {
+              margin-top: 9px;
+              margin-bottom: 40px;
+              font-size: 28px; }
+          html body .wrap section article:nth-of-type(3) .left_box {
+            float: left; }
+            html body .wrap section article:nth-of-type(3) .left_box img {
+              float: left; }
+          html body .wrap section article:nth-of-type(3) .right_box {
+            font-size: 0; }
+            html body .wrap section article:nth-of-type(3) .right_box > img {
+              float: left; }
+            html body .wrap section article:nth-of-type(3) .right_box .box {
+              position: relative;
+              float: left;
+              width: 311px;
+              height: 311px;
+              background-color: #ff5053; }
+              html body .wrap section article:nth-of-type(3) .right_box .box img {
+                width: 237px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateY(-50%) translateX(-50%);
+                float: left; }
+      html body .wrap footer {
+        width: 100%;
+        height: 946px;
+        margin-top: 25px;
+        margin-bottom: 55px;
+        font-size: 18px;
+        color: #666666;
+        background-color: #fff;
+        border-radius: 15px; }
+        html body .wrap footer h2, html body .wrap footer h3, html body .wrap footer p {
+          margin-left: 40px;
+          margin-right: 40px; }
+          html body .wrap footer h2 span img, html body .wrap footer h3 span img, html body .wrap footer p span img {
+            position: relative;
+            top: 10px;
+            margin-right: 12px; }
+        html body .wrap footer h2 {
+          margin-bottom: 30px;
+          padding-top: 90px;
+          font-size: 28px;
+          font-weight: bold;
+          color: #333333; }
+        html body .wrap footer h3 {
+          margin-top: 22px;
+          font-weight: bold;
+          color: #333333; }
+        html body .wrap footer p {
+          line-height: 30px; }
+        html body .wrap footer .red {
+          color: #ff0000; }
+
+@media screen and (min-width: 641px) and (max-width: 1218px) {
+  html body {
+    background-size: cover; }
+    html body .wrap {
+      width: 100%;
+      margin: 0 auto; }
+      html body .wrap header {
+        width: 100%;
+        height: 59vw; }
+        html body .wrap header h1 {
+          margin-top: 18.7vw;
+          font-size: 5.7vw; }
+          html body .wrap header h1 p {
+            margin-top: 1.7vw;
+            font-size: 7vw; }
+            html body .wrap header h1 p > span {
+              padding: 0.8vw 1.7vw 0 1.7vw;
+              margin-right: 0.8vw;
+              border-radius: 2.5vw 0 2.5vw 0; }
+        html body .wrap header > p:nth-of-type(1) {
+          margin-top: 5vw;
+          font-size: 2.5vw; }
+          html body .wrap header > p:nth-of-type(1) span {
+            margin-right: 0.8vw;
+            padding: 0.4vw 0.8vw;
+            border-radius: 2.5vw; }
+        html body .wrap header > p:nth-of-type(2) {
+          margin-top: 1.7vw;
+          font-size: 2.2vw; }
+          html body .wrap header > p:nth-of-type(2) span {
+            margin: 0 0.8vw;
+            font-size: 2.5vw; }
+      html body .wrap section article {
+        height: 78.8vw;
+        border-radius: 1.3vw; }
+        html body .wrap section article:nth-of-type(1) h3 {
+          padding-top: 9.2vw;
+          font-size: 3vw;
+          line-height: 4.2vw; }
+          html body .wrap section article:nth-of-type(1) h3 span {
+            font-size: 3.2vw; }
+        html body .wrap section article:nth-of-type(1) .box_wrap {
+          margin-top: 3.3vw; }
+          html body .wrap section article:nth-of-type(1) .box_wrap .basic {
+            margin-right: 1.7vw;
+            width: 32.9vw;
+            height: 18.1vw; }
+            html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box {
+              width: 13.3vw;
+              font-size: 2vw; }
+              html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box > p {
+                margin-top: 6.3vw;
+                line-height: 2.5vw; }
+            html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box2 {
+              width: 19.5vw;
+              height: 100%;
+              border: 0.1vw solid #ccc; }
+              html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box2 p {
+                line-height: 2.3vw; }
+                html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box2 p:nth-of-type(1) {
+                  margin-top: 5.8vw;
+                  font-size: 2vw; }
+                html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box2 p:nth-of-type(2) {
+                  font-size: 1.2vw; }
+                html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box2 p:nth-of-type(3) {
+                  font-size: 1vw; }
+          html body .wrap section article:nth-of-type(1) .box_wrap .premium {
+            width: 32.9vw;
+            height: 18.1vw; }
+            html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box {
+              width: 13.3vw;
+              height: 18.1vw;
+              font-size: 2vw; }
+              html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box > p {
+                margin-top: 6.3vw;
+                line-height: 2.5vw; }
+            html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box2 {
+              width: 19.5vw;
+              border: 0.1vw solid #ccc; }
+              html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box2 p {
+                line-height: 2.3vw; }
+                html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box2 p:nth-of-type(1) {
+                  margin-top: 5.8vw;
+                  font-size: 2vw; }
+                html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box2 p:nth-of-type(2) {
+                  font-size: 1.2vw; }
+        html body .wrap section article:nth-of-type(1) > p {
+          margin-top: 3.3vw;
+          font-size: 2.3vw;
+          line-height: 3.3vw; }
+        html body .wrap section article:nth-of-type(1) > a:nth-of-type(1) {
+          margin-top: 0.8vw;
+          padding: 1.3vw 3.8vw;
+          font-size: 4.7vw;
+          border-radius: 5vw; }
+        html body .wrap section article:nth-of-type(1) > a:nth-of-type(2) {
+          margin-top: 0.8vw;
+          padding: 2.5vw 2.9vw;
+          font-size: 2.7vw;
+          border-radius: 5vw; }
+        html body .wrap section article:nth-of-type(2) {
+          margin-top: 2.1vw; }
+          html body .wrap section article:nth-of-type(2) h3 {
+            margin-bottom: 3.3vw;
+            padding-top: 7.1vw;
+            font-size: 3vw;
+            line-height: 4.2vw; }
+            html body .wrap section article:nth-of-type(2) h3 span {
+              font-size: 3.2vw; }
+          html body .wrap section article:nth-of-type(2) .product {
+            margin-bottom: 0.8vw;
+            width: 42.5vw;
+            height: 30.5vw;
+            border: 0.1vw solid #3b76fc;
+            border-radius: 1.3vw; }
+            html body .wrap section article:nth-of-type(2) .product .img_box {
+              height: 21.4vw;
+              border-top-left-radius: 1.3vw;
+              border-top-right-radius: 1.3vw; }
+              html body .wrap section article:nth-of-type(2) .product .img_box span {
+                top: 0.4vw;
+                left: 0.4vw; }
+                html body .wrap section article:nth-of-type(2) .product .img_box span img {
+                  width: 7.2vw; }
+            html body .wrap section article:nth-of-type(2) .product p {
+              margin-top: 2.1vw;
+              font-size: 2vw;
+              line-height: 2.5vw; }
+          html body .wrap section article:nth-of-type(2) .pro1 {
+            border: 0.1vw solid #024ec6; }
+            html body .wrap section article:nth-of-type(2) .pro1 img {
+              width: 25.2vw; }
+          html body .wrap section article:nth-of-type(2) .pro2 img {
+            width: 14.8vw; }
+          html body .wrap section article:nth-of-type(2) .pro3 img {
+            width: 25.1vw; }
+          html body .wrap section article:nth-of-type(2) .pro4 img {
+            width: 26.3vw; }
+        html body .wrap section article:nth-of-type(3) {
+          height: 76vw;
+          margin-top: 2.1vw; }
+          html body .wrap section article:nth-of-type(3) h3 {
+            margin-bottom: 2.5vw;
+            padding-top: 8.3vw;
+            font-size: 3vw;
+            line-height: 4.2vw; }
+            html body .wrap section article:nth-of-type(3) h3 span {
+              font-size: 3.2vw; }
+          html body .wrap section article:nth-of-type(3) p {
+            font-size: 2.5vw; }
+            html body .wrap section article:nth-of-type(3) p:nth-of-type(2) {
+              margin-top: 0.8vw; }
+            html body .wrap section article:nth-of-type(3) p:nth-of-type(3) {
+              margin-top: 0.8vw;
+              margin-bottom: 3.3vw;
+              font-size: 2.3vw; }
+          html body .wrap section article:nth-of-type(3) .left_box img {
+            width: 47.5vw; }
+          html body .wrap section article:nth-of-type(3) .right_box > img:nth-child(1) {
+            width: 49.8vw; }
+          html body .wrap section article:nth-of-type(3) .right_box > img:nth-child(3) {
+            width: 24.9vw; }
+          html body .wrap section article:nth-of-type(3) .right_box .box {
+            width: 24.9vw;
+            height: 24.9vw; }
+            html body .wrap section article:nth-of-type(3) .right_box .box img {
+              width: 18vw; }
+      html body .wrap footer {
+        height: 78.8vw;
+        margin-top: 2.1vw;
+        margin-bottom: 4.6vw;
+        font-size: 1.5vw;
+        border-radius: 1.3vw; }
+        html body .wrap footer h2, html body .wrap footer h3, html body .wrap footer p {
+          margin-left: 3.3vw;
+          margin-right: 3.3vw; }
+          html body .wrap footer h2 span img, html body .wrap footer h3 span img, html body .wrap footer p span img {
+            top: 0.8vw;
+            margin-right: 1vw; }
+        html body .wrap footer h2 {
+          margin-bottom: 2.5vw;
+          padding-top: 4vw;
+          font-size: 2.3vw; }
+        html body .wrap footer h3 {
+          margin-top: 1.8vw; }
+        html body .wrap footer p {
+          line-height: 2.5vw; } }
+@media screen and (max-width: 640px) {
+  html::-webkit-scrollbar {
+    display: none; }
+  html body {
+    background-image: url("http://joyfulyoon.com//images/KT5G/bg_mobile.jpg");
+    background-size: cover;
+    background-position: center 0; }
+    html body .wrap {
+      width: 100%;
+      margin: 0 auto; }
+      html body .wrap header {
+        width: 100%;
+        height: 108vw; }
+        html body .wrap header h1 {
+          margin-top: 40vw;
+          font-size: 8vw; }
+          html body .wrap header h1 p {
+            margin-top: 2vw;
+            font-size: 10vw; }
+            html body .wrap header h1 p > span {
+              padding: 0.8vw 1.7vw 0 1.7vw;
+              margin-right: 0.8vw;
+              border-radius: 2.5vw 0 2.5vw 0; }
+        html body .wrap header > p:nth-of-type(1) {
+          margin-top: 10vw;
+          font-size: 4.5vw; }
+          html body .wrap header > p:nth-of-type(1) span {
+            margin-right: 0.8vw;
+            padding: 0.6vw 1vw;
+            border-radius: 4vw; }
+        html body .wrap header > p:nth-of-type(2) {
+          margin-top: 3vw;
+          font-size: 3.7vw; }
+          html body .wrap header > p:nth-of-type(2) span {
+            margin: 0 0.8vw;
+            font-size: 4.3vw; }
+      html body .wrap section article {
+        height: 260vw;
+        border-radius: 1.3vw; }
+        html body .wrap section article:nth-of-type(1) {
+          height: 178vw; }
+          html body .wrap section article:nth-of-type(1) h3 {
+            padding-top: 9.2vw;
+            font-size: 5vw;
+            line-height: 6vw; }
+            html body .wrap section article:nth-of-type(1) h3 span {
+              font-size: 5vw; }
+          html body .wrap section article:nth-of-type(1) .box_wrap {
+            margin-top: 5vw; }
+            html body .wrap section article:nth-of-type(1) .box_wrap .basic {
+              float: none;
+              margin-right: 0;
+              width: 75.6vw;
+              height: 41.6vw; }
+              html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box {
+                width: 30.6vw;
+                height: 100%;
+                font-size: 4.5vw; }
+                html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box > p {
+                  margin-top: 50%;
+                  line-height: 5vw; }
+              html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box2 {
+                width: 44.8vw;
+                border: 0.1vw solid #ccc; }
+                html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box2 p {
+                  line-height: 4.5vw; }
+                  html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box2 p:nth-of-type(1) {
+                    margin-top: 14vw;
+                    font-size: 4.5vw; }
+                  html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box2 p:nth-of-type(2) {
+                    font-size: 3vw; }
+                  html body .wrap section article:nth-of-type(1) .box_wrap .basic .side_box2 p:nth-of-type(3) {
+                    font-size: 2.5vw; }
+            html body .wrap section article:nth-of-type(1) .box_wrap .premium {
+              float: none;
+              margin-top: 2vw;
+              width: 75.6vw;
+              height: 41.6vw; }
+              html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box {
+                width: 30.6vw;
+                height: 100%;
+                font-size: 4.5vw; }
+                html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box > p {
+                  margin-top: 50%;
+                  line-height: 5vw; }
+              html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box2 {
+                width: 44.8vw;
+                border: 0.1vw solid #ccc; }
+                html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box2 p {
+                  line-height: 5vw; }
+                  html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box2 p:nth-of-type(1) {
+                    margin-top: 14vw;
+                    font-size: 4.5vw; }
+                  html body .wrap section article:nth-of-type(1) .box_wrap .premium .side_box2 p:nth-of-type(2) {
+                    font-size: 3vw; }
+          html body .wrap section article:nth-of-type(1) > p {
+            margin-top: 7vw;
+            font-size: 3.5vw;
+            line-height: 4.5vw; }
+          html body .wrap section article:nth-of-type(1) > a:nth-of-type(1) {
+            margin-top: 3vw;
+            padding: 1.3vw 3.8vw;
+            font-size: 8.8vw;
+            border-radius: 5vw; }
+          html body .wrap section article:nth-of-type(1) > a:nth-of-type(2) {
+            margin-top: 3vw;
+            padding: 2.5vw 2.9vw;
+            font-size: 5vw;
+            border-radius: 5vw; }
+        html body .wrap section article:nth-of-type(2) {
+          margin-top: 2.1vw; }
+          html body .wrap section article:nth-of-type(2) h3 {
+            margin-bottom: 5vw;
+            padding-top: 7.1vw;
+            font-size: 5vw;
+            line-height: 4.2vw; }
+            html body .wrap section article:nth-of-type(2) h3 span {
+              font-size: 5.5vw; }
+          html body .wrap section article:nth-of-type(2) .product {
+            margin-bottom: 2.3vw;
+            width: 79.7vw;
+            height: 57.2vw;
+            border: 0.2vw solid #3b76fc;
+            border-radius: 1.3vw; }
+            html body .wrap section article:nth-of-type(2) .product .img_box {
+              height: 40.2vw;
+              border-top-left-radius: 1.3vw;
+              border-top-right-radius: 1.3vw; }
+              html body .wrap section article:nth-of-type(2) .product .img_box span {
+                top: 0.8vw;
+                left: 0.8vw; }
+                html body .wrap section article:nth-of-type(2) .product .img_box span img {
+                  width: 13.6vw; }
+            html body .wrap section article:nth-of-type(2) .product p {
+              margin-top: 3vw;
+              font-size: 4vw;
+              line-height: 5vw; }
+          html body .wrap section article:nth-of-type(2) .pro1 {
+            border: 0.2vw solid #024ec6; }
+            html body .wrap section article:nth-of-type(2) .pro1 img {
+              width: 45vw; }
+          html body .wrap section article:nth-of-type(2) .pro2 img {
+            width: 25vw; }
+          html body .wrap section article:nth-of-type(2) .pro3 img {
+            width: 45vw; }
+          html body .wrap section article:nth-of-type(2) .pro4 img {
+            width: 45vw; }
+        html body .wrap section article:nth-of-type(3) {
+          height: 280vw;
+          margin-top: 2.1vw; }
+          html body .wrap section article:nth-of-type(3) h3 {
+            margin-bottom: 2.5vw;
+            padding-top: 8.3vw;
+            font-size: 5vw;
+            line-height: 4.2vw; }
+            html body .wrap section article:nth-of-type(3) h3 span {
+              font-size: 5vw; }
+          html body .wrap section article:nth-of-type(3) p {
+            margin-top: 2vw;
+            font-size: 4vw; }
+            html body .wrap section article:nth-of-type(3) p:nth-of-type(2) {
+              margin-top: 0.8vw; }
+            html body .wrap section article:nth-of-type(3) p:nth-of-type(3) {
+              margin-top: 0.8vw;
+              margin-bottom: 3.3vw;
+              font-size: 3.5vw; }
+          html body .wrap section article:nth-of-type(3) .left_box {
+            float: none; }
+            html body .wrap section article:nth-of-type(3) .left_box img {
+              float: none;
+              width: 100%; }
+          html body .wrap section article:nth-of-type(3) .right_box > img {
+            float: none;
+            font-size: 0; }
+            html body .wrap section article:nth-of-type(3) .right_box > img:nth-child(1) {
+              width: 100%; }
+            html body .wrap section article:nth-of-type(3) .right_box > img:nth-child(3) {
+              width: 100%; }
+          html body .wrap section article:nth-of-type(3) .right_box .box {
+            display: none;
+            width: 26vw;
+            height: 26vw; }
+            html body .wrap section article:nth-of-type(3) .right_box .box img {
+              width: 18vw; }
+      html body .wrap footer {
+        height: 205vw;
+        margin-top: 2.1vw;
+        margin-bottom: 4.6vw;
+        font-size: 3vw;
+        border-radius: 1.3vw; }
+        html body .wrap footer h2, html body .wrap footer h3, html body .wrap footer p {
+          margin-left: 3.3vw;
+          margin-right: 3.3vw; }
+          html body .wrap footer h2 span img, html body .wrap footer h3 span img, html body .wrap footer p span img {
+            top: 1vw;
+            margin-right: 1vw; }
+        html body .wrap footer h2 {
+          margin-bottom: 3.5vw;
+          padding-top: 7.5vw;
+          font-size: 5vw; }
+        html body .wrap footer h3 {
+          margin-top: 3vw; }
+        html body .wrap footer p {
+          line-height: 5vw; } }
+
+/*# sourceMappingURL=KT5G.css.map */
